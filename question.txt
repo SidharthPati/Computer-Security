@@ -1,6 +1,5 @@
 1) Create a 128-bit and 256-bit AES key, encrypt and decrypt each of the two files using AES in the CTR mode.
-2) Compute a hash of each of the files using hash functions SHA-256, SHA-512, and SHA3-
-256.
+2) Compute a hash of each of the files using hash functions SHA-256, SHA-512, and SHA3-256.
 3) Create a 2048-bit and 3072-bit RSA key, encrypt and decrypt the files above with PKCS #1 v2 padding (at least v2.0, but v2.2 is preferred; it may also be called OAEP).
 4) Create a 2048-bit and 3072-bit DSA key, sign the two files and verify the corresponding signatures. If creating a key takes two parameters, use 224 bits for the exponent sizes. If the hash function algorithm needs to specified separately, use SHA-256.
 
